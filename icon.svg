@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Master app icon (T090, D78): vermilion seal with 三 (三國) on rice paper. Pure paths, no text/filters:
+       legible at 16px, exported to PNG sizes by scripts/icons.mjs. -->
+  <rect width="64" height="64" rx="12" fill="#efe6d2"/>
+  <mask id="wear">
+    <rect width="64" height="64" fill="#fff"/>
+    <g fill="#000">
+      <ellipse cx="9.4" cy="21" rx="1.6" ry="0.9"/><ellipse cx="54.8" cy="40" rx="1.4" ry="1"/>
+      <ellipse cx="27" cy="54.7" rx="2" ry="0.8"/><ellipse cx="44" cy="9.3" rx="1.5" ry="0.8"/>
+      <ellipse cx="54.6" cy="14" rx="0.9" ry="0.7"/><ellipse cx="12" cy="50" rx="0.8" ry="0.6"/>
+    </g>
+  </mask>
+  <g mask="url(#wear)">
+    <rect x="8" y="8" width="48" height="48" rx="5" fill="#b0302a"/>
+    <!-- 三: three brush strokes, top and middle shorter, bottom longest, slight rise and tapered tips -->
+    <g fill="#f7f1e3">
+      <path d="M21 19.6 Q32 17.6 43 18.4 L43.6 20 Q43 22.6 41.2 23 Q31 22.8 21.6 24.2 Q19.6 22 21 19.6Z"/>
+      <path d="M23.4 30.2 Q32 28.6 40.4 29.2 L41 30.8 Q40.4 33.2 38.8 33.6 Q31 33.4 23.8 34.6 Q22 32.4 23.4 30.2Z"/>
+      <path d="M15.6 41.6 Q32 39 48.4 40 Q50.2 41.2 49.6 43.2 Q47.6 45.6 44 45.4 Q30 45.4 16.2 46.6 Q14 44.2 15.6 41.6Z"/>
+    </g>
+    <rect x="10" y="10" width="44" height="44" rx="3.5" fill="none" stroke="#f7f1e3" stroke-opacity=".35" stroke-width="1"/>
+  </g>
+</svg>
